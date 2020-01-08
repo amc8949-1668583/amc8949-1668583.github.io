@@ -12,5 +12,8 @@ img{
 	padding: 20px;
 	width: 200px;
 	height: 150px;
+}
 
+#dotted{
+	border-style: dotted;
 }
