@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>Alex Home Page</title>
+  <link>https://github.com/amc8949-1668583/amc8949-1668583.github.io</link>
+  <description>Alex Main Github Project Page</description>
+  <item>
+    <title>Project 1</title>
+    <link>https://github.com/amc8949-1668583/amc8949-1668583.github.io/blob/master/embeddingOriginalWork.html</link>
+    <description>One of my first projects</description>
+  </item>
+  <item>
+    <title>Another Project</title>
+    <link>https://github.com/amc8949-1668583/amc8949-1668583.github.io/blob/master/tags.html</link>
+    <description>Another Proejct</description>
+  </item>
+</channel>
+
+</rss>
