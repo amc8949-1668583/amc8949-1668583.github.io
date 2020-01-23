@@ -70,10 +70,10 @@
 				</form>
 			</label>
 			<div class="col-sm-9">
-				<form action="/action_page.php">
-					<input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
-					<span>Example: (123)-456-7890</span>
-				</form>
+				
+				<input type="tel" name="phone" pattern="[0-9]{3}[0-9]{3}-[0-9]{4}" required>
+				<span>Example: (123)456-7890</span>
+				
 			</div>
 		</div>
 		
@@ -82,15 +82,15 @@
 			<div class="col-sm-9">
 				<select class="form-control" name="city">
 					<option value="" selected="true">Choose a City</option>
-					<option value="AL">Pasadena</option>
-					<option value="AK">Altadena</option>
-					<option value="AZ">San Marino</option>
-					<option value="AL">Monrovia</option>
-					<option value="AK">Glendale</option>
-					<option value="AZ">Burbank</option>
-					<option value="AL">Arcadia</option>
-					<option value="AK">San Gabriel</option>
-					<option value="AZ">Northridge</option>
+					<option value="Pas">Pasadena</option>
+					<option value="Alt">Altadena</option>
+					<option value="Sm">San Marino</option>
+					<option value="Mv">Monrovia</option>
+					<option value="Gln">Glendale</option>
+					<option value="Bur">Burbank</option>
+					<option value="Arc">Arcadia</option>
+					<option value="Sgv">San Gabriel</option>
+					<option value="Nrth">Northridge</option>
 					
 				</select>
 			</div>
@@ -98,14 +98,14 @@
 		<div class="form-group">
 			<label class="col-sm-3 control-label">Lesson Type</label>
 			<div class="col-sm-9">
-				<form action="/action_page.php">
+				
 			  		<select name="lesson_type" size="2" multiple>
 			    		<option value="Music Performance">Music Performance</option>
 			    		<option value="Music Theory">Music Theory</option>
 			    		
 			 		</select>
 		
-				</form>	
+				
 				<p>*For both hold down CTRL/CMD and click*</p>
 			</div>
 		</div>
@@ -148,29 +148,29 @@
 			</div>
 		</div>
 		<div class="form-group row">
-			<label class="col-sm-12 control-label">How many session per week do you want?</label>
+			<label class="col-sm-12 control-label">What days would you like to meet?</label>
 			<div class="col-sm-offset-0 col-sm-11">
 				<div class="checkbox">
 					<label>
-						<input type="checkbox" name="one_hour" value="parttime">
+						<input type="checkbox" name="one_hour" value="one">
 						1
 					</label>
 				</div>
 				<div class="checkbox">
 					<label>
-						<input type="checkbox" name="two_hour" value="fulltime">
+						<input type="checkbox" name="two_hour" value="two">
 						2
 					</label>
 				</div>
 				<div class="checkbox">
 					<label>
-						<input type="checkbox" name="three_hour" value="seasonal">
+						<input type="checkbox" name="three_hour" value="three">
 						3
 					</label>
 				</div>
 				<div class="checkbox">
 					<label>
-						<input type="checkbox" name="four_hour_plus" value="temporary">
+						<input type="checkbox" name="four_hour_plus" value="four">
 						4+
 					</label>
 				</div>
@@ -179,9 +179,9 @@
 		<div class="form-group row">
 			<label class="col-sm-12 control-label">Start Date:</label>
 			<div class="col-sm-12">
-				<form action="/action_page.php">
+				
 				  <input type="date" name="start">
-				</form>
+				
 			</div>
 		</div>
 	</fieldset>
