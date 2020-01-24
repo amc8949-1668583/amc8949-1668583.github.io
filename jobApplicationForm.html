@@ -7,6 +7,13 @@
 		h2{
 			text-align: center;
 		}
+		.header{
+			padding: 60px;
+			text-align: center;
+			background-image: url('wave.jpeg');
+			color: white;
+			
+		}
 	
 	</style>
 <head>
@@ -19,7 +26,9 @@
 <body>
 <div class="container">
 
-<h2>Alex's Music Studio</h2>
+<div class="header">
+	<h2>Alex's Music Studio</h2>
+</div>
 <p>&nbsp;</p>
 
 <form action="http://gclass.alexburner.com/formtest.php" method="post">
@@ -71,8 +80,8 @@
 			</label>
 			<div class="col-sm-9">
 				
-				<input type="tel" name="phone" pattern="([0-9]){3}-[0-9]{3}-[0-9]{4}" required>
-				<span>Example: (123)456-7890</span>
+				<input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+				<span>Example: 123-456-7890</span>
 				
 			</div>
 		</div>
